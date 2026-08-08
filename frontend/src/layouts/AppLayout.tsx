@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Navigation from "../components/Navigation";
+import "../App.css";
 
 interface AppLayoutProps {
   children: ReactNode;
@@ -7,14 +8,14 @@ interface AppLayoutProps {
 
 function AppLayout({ children }: AppLayoutProps) {
   return (
-    <div>
-      <header>
-        <h1>TaskForge</h1>
+    <div className="app-layout">
+      <header className="app-header">
+        <h1 className="app-brand">TaskForge</h1>
 
         <Navigation />
       </header>
 
-      <main>
+      <main className="app-content">
         {children}
       </main>
     </div>

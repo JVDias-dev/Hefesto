@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav>
+    <nav className="app-navigation">
       <NavLink to="/dashboard">
         Dashboard
       </NavLink>

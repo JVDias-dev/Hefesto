@@ -8,7 +8,7 @@ function ProjectCard({
   description,
 }: ProjectCardProps) {
   return (
-    <article>
+    <article className="project-card">
       <h2>{name}</h2>
 
       <p>{description}</p>
