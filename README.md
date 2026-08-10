@@ -1,4 +1,4 @@
-\# TaskForge AI
+\# Hefesto
 
 
 
@@ -10,7 +10,7 @@ AI-powered project planning and task management platform.
 
 
 
-TaskForge AI is a project management application designed to help users transform ideas into structured and executable projects.
+Hefesto is a project management application designed to help users transform ideas into structured and executable projects.
 
 
 
@@ -76,7 +76,7 @@ The platform uses artificial intelligence to analyze a project idea, propose a s
 
 
 
-TaskForge AI is the first project of the "Noite de Domingo" initiative: building a complete software project within a single weekend.
+Hefesto is the first project of the "Noite de Domingo" initiative: building a complete software project within a single weekend.
 
 
 
