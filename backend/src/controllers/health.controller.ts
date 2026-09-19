@@ -1,13 +1,13 @@
 import type { Request, Response } from "express";
 
-import { prisma } from "../infrastructure/database/prisma";
+import { databaseService } from "../services/database.service";
 
 export async function healthController(
   _request: Request,
   response: Response
 ) {
   try {
-    await prisma.$queryRaw`SELECT 1`;
+    await databaseService.checkConnection();
 
     response.json({
       status: "ok",
