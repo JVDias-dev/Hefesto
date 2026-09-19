@@ -1,10 +1,9 @@
 import express from "express";
 import cors from "cors";
-import { prisma } from "./infrastructure/database/prisma";
-
 import { env } from "./config/env";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import apiRouter from "./routes";
+import { prisma } from "./infrastructure/database/prisma";
 
 const app = express();
 
